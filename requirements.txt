@@ -1,0 +1,17 @@
+tensorflow
+keras
+pandas
+numpy
+jupyter 
+notebook
+tqdm
+opencv-contrib-python
+scikit-learn
+images                                              labels
+images/angry/suyash.png             angry
+images/happy/suyash.png            happy
+images/neutral/suyash.png          neutral
+images/sad/suyash.png               sad
+# Importing the required libraries
+
+load_img(img, grayscale = True)   # Converting image to gray scale as it is easier for classification
